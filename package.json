@@ -1,0 +1,28 @@
+{
+  "name": "crud-ai-agent",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate",
+    "studio": "drizzle-kit studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.5",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/pg": "^8.11.11",
+    "drizzle-kit": "^0.30.6",
+    "tsx": "^4.19.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.41.0",
+    "openai": "^4.93.0",
+    "pg": "^8.14.1",
+    "readline-sync": "^1.4.10"
+  }
+}
